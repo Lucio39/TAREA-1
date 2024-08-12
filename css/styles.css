@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(49, 48, 48) ;
+
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column; /* Establece la dirección de los elementos hijos en una columna */
+    align-items: center; /* Centra los elementos hijos horizontalmente */
+  
+
+    
+
+}
+
+.padre {
+    border: 1px solid #e6b106;
+    background-color: rgb(79, 3, 150);
+    width: 400px;
+    height: 400px;
+    display: flex; /* Activa Flexbox para el contenedor padre */
+    justify-content: center; /* Centra el contenido hijo horizontalmente */
+    align-items: center; /* Centra el contenido hijo verticalmente */
+   
+}
+
+.hijo {
+    
+    border-radius: 15px;
+    background-color: #e6b106; 
+    width: 120px;
+    height: 120px;
+    
+    
+
+}
